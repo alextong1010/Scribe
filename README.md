@@ -40,11 +40,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 There are multiple things that you need to install before hand
 
 i think the order is (1) ffmpeg
+
 (2) whisper - pip install git+https://github.com/openai/whisper.git
 GitHub - openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision
 Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper
 	https://github.com/openai/whisper.git
+
 (3) pyaudio
+
 (4) SpeechRecognition
+
 (5) the speech recognition integration with whisper - pip install ‘SpeechRecognition[whisper-local]’
+
 (6) pip install transformers
