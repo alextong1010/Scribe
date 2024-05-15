@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## install these
+
+There are multiple things that you need to install before hand
+
+i think the order is (1) ffmpeg
+(2) whisper - pip install git+https://github.com/openai/whisper.git
+GitHub - openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision
+Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper
+	https://github.com/openai/whisper.git
+(3) pyaudio
+(4) SpeechRecognition
+(5) the speech recognition integration with whisper - pip install ‘SpeechRecognition[whisper-local]’
+(6) pip install transformers
